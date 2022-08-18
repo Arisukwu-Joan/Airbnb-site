@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.body-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252c;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+.App {
+  text-align: center;
+}
+.nav-log{
+  background-color: #fff;
+  height: 4rem;
+  box-shadow: 0 0 7.4564px 0 rgba(0, 0, 0, 0.1);
+}
+.logo{
+  width: 5rem;
+  align-items: flex-start;
+  display: flex; 
+  background-color: #fff;
+  padding: 15px 40px; 
+
+}
+.multi-img{
+  background-color: #fff;
+  width: 35.5rem;
+}
+.nav-img{
+  width: 26rem;
+  /* padding: 20px 0; */
+}
+.title{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+.parag{
+  display: flex;
+  align-self: center;
+  font-size: 15px;
+  width: 16rem;
+  padding: 0 64px;
+  padding-bottom: 10px;
+}
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  width: 35.5rem;
+  background-color: #fff;
+
+}
+
+.page-img{
+  width: 9rem;
+  height: 13rem;
+  padding: 20px;
+}
+.star{
+  display: flex;
+  align-items: center;
+  padding: 3px 25px;
+  margin-top: -24px;
+
+}
+.star-img{
+  width: 10px;
+
+}
+.usa{
+  font-size: 13px;
+}
+.life{
+  font-size: 12px;
+
+}.sub-title{
+  margin-top: -6px;
+}
+span{
+  font-weight: 700;
+}
+.life-span{
+  padding-right: 45px;
+  font-size: 12px;
+
+}
+
+
