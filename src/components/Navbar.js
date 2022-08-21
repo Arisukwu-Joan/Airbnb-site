@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../image/logo.png";
-import Group from "../image/group.png";
+import logo from "../images/logo.png";
+import Group from "../images/group.png";
 
 function Navbar() {
   return (

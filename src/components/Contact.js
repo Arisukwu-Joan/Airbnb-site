@@ -1,13 +1,12 @@
 import React from "react";
-// import swim from "../image/swim.png";
-import star from "../image/star.png";
+import star from "../images/star.png";
+
 
 function Contact(props) {
-  console.log(props);
   return (
     <div className="main-img">
       {/* <img src={`../image/${props.img}`} alt="" className="page-img" /> */}
-      <img src={"/image/swim.png"} alt="" className="page-img" />
+      <img src={props.img} alt="" className="page-img" />
 
       <div className="star">
         <img src={star} alt="" className="star-img" />

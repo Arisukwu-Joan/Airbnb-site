@@ -2,6 +2,9 @@ import "./App.css";
 import Contact from "./components/Contact";
 // import MainContent from "./components/MainContent";
 import Navbar from "./components/Navbar";
+import swim from "../src/images/swim.png";
+import wedding from "../src/images/wedding.png";
+import mountain from "../src/images/mountain.png";
 
 function App(props) {
   return (
@@ -12,19 +15,19 @@ function App(props) {
           {/* <MainContent /> */}
           <div className="section">
             <Contact
-              img="swim.png"
+              img={swim}
               place="5.0 (6).USA"
               title="life lessons with katie zaferes"
               review="From $136 / person"
             />
             <Contact
-              img="wedding.png"
+              img={wedding}
               place="5.0 (30).USA"
               title="learning wedding photograph"
               review="From $125 / person"
             />
             <Contact
-              img="mountain.png"
+              img={mountain}
               place="5.0 (30).USA"
               title="Group mountain bike"
               review="From $50 / person"
