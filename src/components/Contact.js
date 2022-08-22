@@ -13,7 +13,10 @@ function Contact(props) {
         </div>
         <div className="sub-title">
           <p className="life">{props.title}</p>
-          <p className="life-span">{props.review}</p>
+          <p className="life-span">
+            <span>From 136</span>
+            {props.review}
+          </p>
         </div>
       </div>
     </div>

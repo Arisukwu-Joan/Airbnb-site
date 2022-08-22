@@ -18,19 +18,19 @@ function App(props) {
               img={swim}
               place="5.0 (6).USA"
               title="life lessons with katie zaferes"
-              review="From $136 / person"
+              review="/ person"
             />
             <Contact
               img={wedding}
               place="5.0 (30).USA"
               title="learning wedding photograph"
-              review="From $125 / person"
+              review=" / person"
             />
             <Contact
               img={mountain}
               place="5.0 (30).USA"
               title="Group mountain bike"
-              review="From $50 / person"
+              review="/ person"
             />
           </div>
         </div>
