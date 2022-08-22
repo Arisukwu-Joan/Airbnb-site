@@ -59,11 +59,11 @@
 }
 .main{
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   /* width: 35.5rem; */
   background-color: #fff;
-
 }
+
 
 .page-img{
   width: 9rem;
@@ -102,10 +102,41 @@ span{
   font-size: 12px;
 
 }
-@media (wax-width: 480px) {
+@media (max-width: 480px) {
   .logo{
-    padding: 10px;
-    width: 20rem;
+    padding: 20px 109px;
+    width: 5rem;
+  }
+  .body-container{
+    max-width: fit-content;
+    overflow: hidden;
+  }
+  .multi-img{
+    /* width: 20rem; */
+  }
+  .nav-img{
+    padding: 29px 32px;
+    width: 21rem;
+  }
+  .page-img{
+    width: 15rem;
+    height: 20rem;
+  }
+  .title{
+    margin-left: 2em;
+  }
+  .parag{
+    margin-left: 3.5em;
+  }
+  .section{
+    display:flex;
+    flex-direction: column;
+  }
+  .star{
+    padding-left: 10.4em;
+  }
+  .hero{
+    padding-right: 5.5em;
   }
   
 }
